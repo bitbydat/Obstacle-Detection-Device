@@ -61,7 +61,7 @@ This device is designed to detect distant obstacles and provide a warning mechan
 <br />
 <div align="center">
   <a href="https://github.com/bitbydat/Obstacle-Detection-Device">
-    <img src="image/diagram1.png" alt="Logo" width="600" height="420">
+    <img src="image/diagram1.png" alt="Logo" width="600" height="500">
   </a>
 <p align="justify">
 The project's deployment diagram is shown here.<br>
