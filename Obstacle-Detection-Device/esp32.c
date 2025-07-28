@@ -71,15 +71,14 @@ char ESP32_get_LBS(void)
 
 void ESP32_process_data(char *lat, char *lon, uint8_t sz_lat, uint8_t sz_lon)
 {
+	//LBS message: "0,21.013463,105.834371,50\r\n"
 	char buf[40];
 	strncpy(buf, ESP32_buf, sizeof(buf));
 	char *token = strtok(buf, ","); 
 
-    token = strtok(NULL, ",");       // Latitude
-    if (token) strncpy(lat, token, sz_lat);
-
-    token = strtok(NULL, ",");       // Longitude
-    if (token) strncpy(lon, token, sz_lon);
-	
+  token = strtok(NULL, ",");       // Latitude
+  if (token) strncpy(lat, token, sz_lat);
+  token = strtok(NULL, ",");       // Longitude
+  if (token) strncpy(lon, token, sz_lon);
 }
 

@@ -4,6 +4,7 @@
 .\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gps.o: C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h
 .\objects\gps.o: .\RTE\_Device\RTE_Components.h
 .\objects\gps.o: C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
@@ -11,7 +12,6 @@
 .\objects\gps.o: C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
 .\objects\gps.o: C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\gps.o: C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h
-.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\gps.o: .\inc\systick_time.h
 .\objects\gps.o: .\FreeRTOS-Kernel\include\FreeRTOS.h
 .\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

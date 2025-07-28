@@ -4,6 +4,7 @@
 .\objects\esp32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\esp32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\esp32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\esp32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\esp32.o: C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h
 .\objects\esp32.o: .\RTE\_Device\RTE_Components.h
 .\objects\esp32.o: C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h
@@ -11,7 +12,6 @@
 .\objects\esp32.o: C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
 .\objects\esp32.o: C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
 .\objects\esp32.o: C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h
-.\objects\esp32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\esp32.o: .\inc\systick_time.h
 .\objects\esp32.o: .\FreeRTOS-Kernel\include\FreeRTOS.h
 .\objects\esp32.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

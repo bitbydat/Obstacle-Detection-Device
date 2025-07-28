@@ -25,6 +25,21 @@
 #define PAUSE					0x0E
 #define RESUME				0x0D
 
+//DFplayer audio id
+#define Left2m 				01
+#define Left1m 				02
+#define Left50cm		  03
+#define Front2m 			04
+#define Front1m 			05
+#define Front50cm 		06
+#define Right2m 			07
+#define Right1m 			08
+#define Right50cm 		09
+#define Stop 					10
+#define GPS_sent 			11 
+#define No_GPS 				12
+
+
 
 void DF_UART_Init(u8 uart, u32 baudrate);
 void DF_Send_CMD(u8 cmd, u8 para1, u8 para2);
@@ -36,8 +51,14 @@ void DF_Decrease_Volume(void);
 void DF_Pause(void);
 void DF_Resume(void);
 void DF_Reset(void);
+void Alert_Handle(uint32_t *distance);
+int get_alert_level(uint16_t distance);
 
+//#define Buzzer_On 	GPIOA->ODR |= GPIO_ODR_ODR11
+//#define Buzzer_Off 	GPIOA->ODR &= ~GPIO_ODR_ODR11
 
+#define Buzzer_On 	GPIOB->ODR |= GPIO_ODR_ODR9
+#define Buzzer_Off 	GPIOB->ODR &= ~GPIO_ODR_ODR9;
 
 #endif
 

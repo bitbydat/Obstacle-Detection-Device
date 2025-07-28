@@ -51,17 +51,17 @@ char A7680C_get_LBS(void)
 }
 
 void A7680C_process_data(char *lat, char *lon, uint8_t sz_lat, uint8_t sz_lon)
-{	//"+CLBS: 0,21.013981,105.836349,550\r\n"
+{	
+	// LBS message: "+CLBS: 0,21.013981,105.836349,550\r\n"
 	char buf[40];
 	strncpy(buf, A7680C_buf, sizeof(buf));
 	char *token = strtok(buf, ":"); 
-    token = strtok(NULL, ",");     
-
-    token = strtok(NULL, ",");       // Latitude
-    if (token) strncpy(lat, token, sz_lat);
-
-    token = strtok(NULL, ",");       // Longitude
-    if (token) strncpy(lon, token, sz_lon);
+	
+  token = strtok(NULL, ",");     
+  token = strtok(NULL, ",");       // Latitude
+  if (token) strncpy(lat, token, sz_lat);
+  token = strtok(NULL, ",");       // Longitude
+  if (token) strncpy(lon, token, sz_lon);
 }
 
 

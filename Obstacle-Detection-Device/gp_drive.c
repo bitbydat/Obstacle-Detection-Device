@@ -1,7 +1,6 @@
 #include "gp_drive.h"
 
 
-
 void init_GP(unsigned short PORT,unsigned short PIN,unsigned short DIR,unsigned short OPT)
 {
 	volatile unsigned long * CR;

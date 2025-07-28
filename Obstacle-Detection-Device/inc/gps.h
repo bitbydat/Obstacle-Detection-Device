@@ -17,12 +17,13 @@ typedef struct
     uint8_t millisecond;		// Optional subsecond (0–99)
 } time_t;
 
-typedef struct {
-	uint8_t ddd;
-	uint8_t mm;
-	uint16_t mmmm;
-	double decimal_deg;
-}location_t;
+typedef struct 
+{
+		uint8_t ddd;
+		uint8_t mm;
+		uint16_t mmmm;
+		double decimal_deg;
+} location_t;
 
 
 typedef struct
@@ -40,14 +41,13 @@ typedef struct
 } rmc_t;
 
 
+extern char GPS_buf[100];
 
 void GPS_UART_Init(u8 uart, u32 baudrate);
 void GPS_process_data(char *buf, rmc_t *rmc);
 
-void convert_nmea_to_decimal(char *str, uint8_t is_latitude);
 
 
-extern char GPS_buf[100];
 
 #endif
 

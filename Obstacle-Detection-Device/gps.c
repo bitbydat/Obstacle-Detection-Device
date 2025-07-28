@@ -9,6 +9,19 @@ void GPS_UART_Init(u8 uart, u32 baudrate)
 	UART_init(uart,baudrate);
 }
 
+void USART1_IRQHandler(void)
+{
+	static uint8_t count = 0;
+	uint8_t tmp = UART_RX(1);
+	
+	if(tmp == '$')
+	{ 
+		count = 0;
+	}
+		GPS_buf[count] = tmp;
+		count++;
+}
+
 void GPS_process_data(char *buf, rmc_t *rmc)
 {
 	strncpy(rmc->id, buf+1, 5);
@@ -73,24 +86,9 @@ void GPS_process_data(char *buf, rmc_t *rmc)
 					 break;
 		}
 		token = strtok(NULL, ",");
-        field++;
+    field++;
 	}
-	
-	
-	
 }
 
-void convert_nmea_to_decimal(char *str, uint8_t is_latitude)
-{
-	char deg_str[4] = {0};
-	int  deg_len = is_latitude ? 2 : 3;
-	
-	strncpy(deg_str, str, deg_len);
-	int degree = atoi(deg_str);
-	
-	double minutes = atof(str + deg_len);
-	
-	double decimal = (double)degree + (minutes/60.0f);
-	sprintf(str, "%.6f", decimal);
-}
+
 

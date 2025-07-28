@@ -4,8 +4,8 @@
 
 #include "allheader.h"
 
-#define OFFSET_RIGHT 	2248
-#define OFFSET_LEFT 	209
+#define OFFSET_RIGHT 	2220
+#define OFFSET_LEFT 	200
 #define OFFSET_FRONT 	210
 
 #define LOWER_LIMIT 2U

@@ -17,11 +17,11 @@ Library Manager: ArmAr.exe V5.06 update 6 (build 750)
 Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
 CPU DLL:         SARMCM3.DLL V5.31.0.0
 Dialog DLL:      DCM.DLL V1.17.3.0
-Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Target DLL:      Segger\JL2CM3.dll V2.99.38.0
 Dialog DLL:      TCM.DLL V1.46.0.0
  
 <h2>Project:</h2>
-D:\STM32F1-Tutorial-clone\Obstacle_Detection_Device\Obstacle_Detection_Device.uvprojx
+D:\git\Obstacle-Detection-Device\Obstacle-Detection-Device\Obstacle_Detection_Device.uvprojx
 Project File Date:  07/28/2025
 
 <h2>Output:</h2>
@@ -31,15 +31,11 @@ compiling gp_drive.c...
 compiling systick_time.c...
 compiling timer_drive.c...
 compiling uart_drive.c...
-compiling main.c...
-main.c(130): warning:  #111-D: statement is unreachable
-  	return 0;
-main.c(176): warning:  #550-D: variable "file_id"  was set but never used
-  	uint8_t file_id = 0;
-main.c(243): warning:  #111-D: statement is unreachable
-  	vTaskDelete(NULL);
-main.c: 3 warnings, 0 errors
 compiling button.c...
+compiling main.c...
+main.c(135): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c: 1 warning, 0 errors
 compiling esp32.c...
 compiling a7680c.c...
 compiling DFplayer.c...
@@ -54,9 +50,9 @@ assembling startup_stm32f10x_md.s...
 compiling tasks.c...
 compiling system_stm32f10x.c...
 linking...
-Program Size: Code=29280 RO-data=816 RW-data=844 ZI-data=7772  
+Program Size: Code=29396 RO-data=820 RW-data=844 ZI-data=7772  
 FromELF: creating hex file...
-".\Objects\Re_stick.axf" - 0 Error(s), 3 Warning(s).
+".\Objects\Re_stick.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -83,10 +79,10 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:5.4.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
       Source file:   Device\Source\system_stm32f10x.c
-      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\startup_stm32f10x_md.s
       Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Include file:  RTE_Driver\Config\RTE_Device.h
 Build Time Elapsed:  00:00:03
 </pre>
 </body>

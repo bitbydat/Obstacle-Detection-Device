@@ -513,7 +513,7 @@ int timer_get_capture_micro(char port, char pin){
 		case 4: my_capture = tim ->CCR4; break;
 	}
 	my_psc = tim ->PSC;
-	my_capture = (my_capture*my_psc)/(72-1);
+	my_capture = my_capture*(my_psc+1)/72;
 	
 	return my_capture;
 }

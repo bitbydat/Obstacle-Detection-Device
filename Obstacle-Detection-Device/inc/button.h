@@ -10,12 +10,7 @@
 #define LED8_off() 	GPIOA->ODR &= ~GPIO_ODR_ODR8
 
 
-void ButtonLED_Init(void);
-void Buzzer_On(uint16_t millis);
-void Buzzer_Off(void);
-
-uint8_t ultrasonic_enable(void);
-uint8_t active_mode(void);
+void Button_Init(void);
 
 #endif
 

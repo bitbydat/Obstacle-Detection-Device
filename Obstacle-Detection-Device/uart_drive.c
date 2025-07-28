@@ -3,47 +3,43 @@
 
 void UART_init(unsigned short usart, unsigned long BR)
 {
- /// If using USART1 clock speed 72Mhz, else 36Mhz
+ /// If using USART1 clock speed is 72Mhz, else 36Mhz
 	/// USART3 -> PB10 (Tx) and PB11(Rx)
 	/// USART2 -> PA2 (Tx) and PA3(Rx)
 	/// USART1 -> PA9 (Tx) and PA10(Rx)
 	
-	// Enable the Alternate Function for PINs
 	unsigned long BRR_Cal;
-	
-	BRR_Cal = USART_BRR(usart,BR);
-	
-		RCC->APB2ENR |= 1;
-	
+	//Set the baud rate for USART
+	BRR_Cal = USART_BRR(usart, BR);
+	//Enable clock for AFIO 
+	RCC->APB2ENR |= 1;
 	
 	if(usart == 1)
 	{
 //	__disable_irq();
 	RCC->APB2ENR |=0x4000;
-		
-//	RCC->APB2ENR |= RCC_APB2ENR_AFIOEN;
-//	AFIO->MAPR |= AFIO_MAPR_USART1_REMAP;
-//	init_GP(PB, 6, OUT50, O_AF_PP);
-//	init_GP(PB, 7, IN, I_PP);	
-		
+	//Init GPIO pins for USART1
 	init_GP(PA,9,OUT50,O_AF_PP);
 	init_GP(PA,10,IN,I_PP);
 	// Setup the baude rate for 9600 bps
 	USART1->BRR = BRR_Cal; 
+	// Enable Uart Transmit
 	USART1->CR1 |= 8;
+	// Enable Uart Recive
 	USART1->CR1 |= 4;
+	// Enable Uart
 	USART1->CR1 |= 0x2000;
+	//Enable RXNE interrupt
 	USART1->CR1 |= 0x20;
 	NVIC_SetPriority(USART1_IRQn, 6);  					//NVIC->IP[USART1_IRQn] =  5<<(8-4);
 	NVIC_EnableIRQ(USART1_IRQn);								//NVIC->ISER[1] |= 1<<(37-32);
 //	__enable_irq();
 	}
 	else if (usart == 2)
-	{		//-----------Init UART ------------///
-	// Enable UART2
+	{		
 //		__disable_irq();
-		RCC->APB1ENR |=0x20000;
-	// Enable the related PINs
+	RCC->APB1ENR |=0x20000;
+	//Init GPIO pins for USART2
 	init_GP(PA,2,OUT50,O_AF_PP);
 	init_GP(PA,3,IN,I_PP);
 	// Setup the baude rate for 9600 bps
@@ -54,8 +50,9 @@ void UART_init(unsigned short usart, unsigned long BR)
 	USART2->CR1 |= 4;
 	// Enable Uart
 	USART2->CR1 |= 0x2000;
-		USART2->CR1 |= 0x20;
-		NVIC_EnableIRQ(USART2_IRQn);
+	//Enable RXNE interrupt
+	USART2->CR1 |= 0x20;
+	NVIC_EnableIRQ(USART2_IRQn);
 //			__enable_irq();
 
 

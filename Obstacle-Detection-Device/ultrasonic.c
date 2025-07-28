@@ -41,7 +41,7 @@ void Ultrasonic_Measure(uint32_t *distance)
 
 int Ignore_Distance_Zone(uint32_t *distance)
 {
-	*distance = ((*distance > 5U && *distance < 50U) ? *distance : 0U);
+	*distance = ((*distance > 5U && *distance < 200U) ? *distance : 0U);
 	return *distance;
 }
 
