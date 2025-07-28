@@ -1,0 +1,378 @@
+Dependencies for Project 'Obstacle_Detection_Device', Target 'stick': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\gp_drive.c)(0x687C48E7)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\gp_drive.o --omf_browse .\objects\gp_drive.crf --depend .\objects\gp_drive.d)
+I (.\inc\gp_drive.h)(0x687512F8)
+F (.\systick_time.c)(0x687C4838)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\systick_time.o --omf_browse .\objects\systick_time.crf --depend .\objects\systick_time.d)
+I (.\inc\systick_time.h)(0x687512F8)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+F (.\timer_drive.c)(0x687C4838)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\timer_drive.o --omf_browse .\objects\timer_drive.crf --depend .\objects\timer_drive.d)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\inc\gp_drive.h)(0x687512F8)
+F (.\uart_drive.c)(0x68820EE1)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\uart_drive.o --omf_browse .\objects\uart_drive.crf --depend .\objects\uart_drive.d)
+I (.\inc\uart_drive.h)(0x68751353)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\systick_time.h)(0x687512F8)
+F (.\main.c)(0x68826FD5)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\inc\allheader.h)(0x6881FAB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\systick_time.h)(0x687512F8)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\semphr.h)(0x687C499C)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (.\inc\uart_drive.h)(0x68751353)
+I (.\inc\button.h)(0x6874E943)
+I (.\inc\dfplayer.h)(0x68826FD5)
+I (.\inc\gps.h)(0x6881EE4F)
+I (.\inc\a7680c.h)(0x68826FD5)
+I (.\inc\ultrasonic.h)(0x6877F050)
+I (.\inc\esp32.h)(0x68826FD5)
+F (.\esp32.c)(0x68837BBD)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\esp32.o --omf_browse .\objects\esp32.crf --depend .\objects\esp32.d)
+I (.\inc\esp32.h)(0x68826FD5)
+I (.\inc\allheader.h)(0x6881FAB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\systick_time.h)(0x687512F8)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\semphr.h)(0x687C499C)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (.\inc\uart_drive.h)(0x68751353)
+I (.\inc\button.h)(0x6874E943)
+I (.\inc\dfplayer.h)(0x68826FD5)
+I (.\inc\gps.h)(0x6881EE4F)
+I (.\inc\a7680c.h)(0x68826FD5)
+I (.\inc\ultrasonic.h)(0x6877F050)
+F (.\button.c)(0x68820EE1)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\button.o --omf_browse .\objects\button.crf --depend .\objects\button.d)
+I (.\inc\button.h)(0x6874E943)
+I (.\inc\allheader.h)(0x6881FAB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\systick_time.h)(0x687512F8)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\semphr.h)(0x687C499C)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (.\inc\uart_drive.h)(0x68751353)
+I (.\inc\dfplayer.h)(0x68826FD5)
+I (.\inc\gps.h)(0x6881EE4F)
+I (.\inc\a7680c.h)(0x68826FD5)
+I (.\inc\ultrasonic.h)(0x6877F050)
+I (.\inc\esp32.h)(0x68826FD5)
+F (.\a7680c.c)(0x68826D8A)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\a7680c.o --omf_browse .\objects\a7680c.crf --depend .\objects\a7680c.d)
+I (.\inc\a7680c.h)(0x68826FD5)
+I (.\inc\allheader.h)(0x6881FAB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\systick_time.h)(0x687512F8)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\semphr.h)(0x687C499C)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (.\inc\uart_drive.h)(0x68751353)
+I (.\inc\button.h)(0x6874E943)
+I (.\inc\dfplayer.h)(0x68826FD5)
+I (.\inc\gps.h)(0x6881EE4F)
+I (.\inc\ultrasonic.h)(0x6877F050)
+I (.\inc\esp32.h)(0x68826FD5)
+F (.\DFplayer.c)(0x68827050)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\dfplayer.o --omf_browse .\objects\dfplayer.crf --depend .\objects\dfplayer.d)
+I (.\inc\dfplayer.h)(0x68826FD5)
+I (.\inc\allheader.h)(0x6881FAB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\systick_time.h)(0x687512F8)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\semphr.h)(0x687C499C)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (.\inc\uart_drive.h)(0x68751353)
+I (.\inc\button.h)(0x6874E943)
+I (.\inc\gps.h)(0x6881EE4F)
+I (.\inc\a7680c.h)(0x68826FD5)
+I (.\inc\ultrasonic.h)(0x6877F050)
+I (.\inc\esp32.h)(0x68826FD5)
+F (.\gps.c)(0x68820826)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\gps.o --omf_browse .\objects\gps.crf --depend .\objects\gps.d)
+I (.\inc\gps.h)(0x6881EE4F)
+I (.\inc\allheader.h)(0x6881FAB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\systick_time.h)(0x687512F8)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\semphr.h)(0x687C499C)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (.\inc\uart_drive.h)(0x68751353)
+I (.\inc\button.h)(0x6874E943)
+I (.\inc\dfplayer.h)(0x68826FD5)
+I (.\inc\a7680c.h)(0x68826FD5)
+I (.\inc\ultrasonic.h)(0x6877F050)
+I (.\inc\esp32.h)(0x68826FD5)
+F (.\ultrasonic.c)(0x68819758)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\ultrasonic.o --omf_browse .\objects\ultrasonic.crf --depend .\objects\ultrasonic.d)
+I (.\inc\ultrasonic.h)(0x6877F050)
+I (.\inc\allheader.h)(0x6881FAB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\inc\systick_time.h)(0x687512F8)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\semphr.h)(0x687C499C)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\inc\gp_drive.h)(0x687512F8)
+I (.\inc\timer_drive.h)(0x687BB48B)
+I (.\inc\uart_drive.h)(0x68751353)
+I (.\inc\button.h)(0x6874E943)
+I (.\inc\dfplayer.h)(0x68826FD5)
+I (.\inc\gps.h)(0x6881EE4F)
+I (.\inc\a7680c.h)(0x68826FD5)
+I (.\inc\esp32.h)(0x68826FD5)
+F (.\inc\allheader.h)(0x6881FAB2)()
+F (.\heap_2.c)(0x687BB55E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\heap_2.o --omf_browse .\objects\heap_2.crf --depend .\objects\heap_2.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+F (.\list.c)(0x66962B64)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+F (.\port.c)(0x6878A223)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+F (.\queue.c)(0x68812FC9)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+F (.\tasks.c)(0x687A86D9)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5EC78414)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\timers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\stack_macros.h)(0x66962B64)
+F (.\timers.c)(0x66962B64)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5EC7840C)
+I (.\FreeRTOS-Kernel\include\FreeRTOS.h)(0x66962B64)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5EC7840C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (.\inc\FreeRTOSConfig.h)(0x687B2374)
+I (.\FreeRTOS-Kernel\include\projdefs.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\portable.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\deprecated_definitions.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\portable\RVDS\ARM_CM3\portmacro.h)(0x685996AB)
+I (.\FreeRTOS-Kernel\include\mpu_wrappers.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\task.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\list.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\queue.h)(0x66962B64)
+I (.\FreeRTOS-Kernel\include\timers.h)(0x66962B64)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x5FC05DFA)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x61AD876E)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 531" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x61AD876E)(--c99 --gnu -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\inc -I .\FreeRTOS-Kernel\include -I .\FreeRTOS-Kernel\portable\RVDS\ARM_CM3-I.\RTE\Device\STM32F103C8-I.\RTE\_stick-IC:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61AD876E)
+I (.\RTE\_stick\RTE_Components.h)(0x6886F2DB)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8EDF32)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5EC7840C)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EDF32)
+I (C:\Users\DELL\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61AD876E)
