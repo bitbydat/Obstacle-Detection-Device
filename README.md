@@ -47,25 +47,30 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p align="justify">
-This device is designed to detect distant obstacles and provide a warning mechanism for the visually impaired, helping them move safely and confidently. In case the user gets lost, the device is equipped with accurate positioning capabilities and can send a message containing the user's location to their family members. Below are the basic requirements of the project: </p>
-
-- Measure the ***distance*** to obstacles and determine their ***direction***.
-- Warning mechanism using ***pre-recorded audio alerts***.
-- ***Indoor and outdoor positioning*** capability; send ***messages*** to family members' phones.
-- Equipped with a ***battery*** and ***charging circuit***.
-- Notify working status, charging status, and battery level.
+I was assigned the topic 'Design of Navigation and Obstacle Detection Device for the Visually Impaired' by my teacher for my graduation project. Below are some accompanying requirements of the project:  
+- Measure the ***distance*** to obstacles and determine their ***direction***.  
+- Warning mechanism using ***pre-recorded audio alerts***.  
+- ***Indoor and outdoor positioning*** capability; send ***messages*** to family members' phones.  
+- Equipped with a ***battery*** and ***charging circuit***.  
 
 <!-- GETTING STARTED -->
 ## Getting Started
-<br />
+
+After a period of researching user needs and available devices on the market, I was able to clearly determine the key features and technologies required for my device.  
+- Using 03 ***ultrasonic sensors*** to measure the ***distance*** to obstacles and determine their ***corresponding directions***.  
+- Combining ***buzzez and pre‑recorded audio*** use for different obstacle distances.  
+- Integrating ***GPS*** and ***LBS based on 4G and WiFi*** to determine accurately location both ***indoors and outdoors***.  
+- Equipping with a ***battery*** sufficient for all‑day use and a ***USB Type‑C*** charging circuit.
+<p align="left">
+The detailed diagram of the hardware used for the project is shown here.<br>
+</p>
+  
+<br>
 <div align="center">
   <a href="https://github.com/bitbydat/Obstacle-Detection-Device">
     <img src="image/diagram1.png" alt="Logo" width="600" height="500">
   </a>
 <p align="justify">
-The project's deployment diagram is shown here.<br>
-Three ultrasonic sensors will detect and measure the distance to obstacles in three directions. Based on the distance data, the microcontroller will either trigger the playback of an audio file via the DFPlayer module or activate a buzzer for warning. The positioning system combines GPS and LBS to overcome the limitation of GPS not working well indoors. LBS is implemented using 4G-based location services via the A7680C module and Wi-Fi-based positioning through the ESP32. The power supply and charging circuits are designed to provide precise operating voltages to peripherals and support long-term standalone operation of the device.</p>
 
 ### Prerequisites
 Before getting started with the project, you will need the following:
@@ -81,7 +86,7 @@ Before getting started with the project, you will need the following:
 <div align="left">
   
    ```sh
-   git clone https://github.com/hungdaqq/Smarthome-IoT.git
+   git clone https://github.com/bitbydat/Obstacle-Detection-Device.git
    ```
 
 </div>
@@ -111,6 +116,6 @@ I welcome contributions to this project. If you have suggestions, improvements, 
 
 Dat Duy Nguyen - datndng01@gmail.com
 
-Project Link: [https://github.com/hungdaqq/Smarthome-IoT/](https://github.com/hungdaqq/Smarthome-IoT/)
+Project Link: [https://github.com/bitbydat/Obstacle-Detection-Device/](https://github.com/bitbydat/Obstacle-Detection-Device/)
 
 </p>
