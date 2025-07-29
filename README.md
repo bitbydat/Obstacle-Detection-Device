@@ -70,16 +70,23 @@ The detailed diagram of the hardware used for the project is shown here.<br>
   <a href="https://github.com/bitbydat/Obstacle-Detection-Device">
     <img src="image/diagram1.png" alt="Logo" width="600" height="500">
   </a>
+
+  Before getting started with the project, you will need the following:
+| Hardware | Software |
+|----------|----------|
+|x01 STM32F103C8 microcontroller.| Implementing FreeRTOS to schedule tasks with precise timing|
+|x03 ultrasonic sensors (HC-SR04, SRF05)| Using PWM and Input Capture for measuring with ultrasonic sensors|
+|x01 DFPlayer Mini with microSD card and x01 active buzzer| Using USART protocol with the DFPlayer and a GPIO pin for the buzzer|
+|x01 NEO-M8N GPS module; x01 A7680C 4G module |Using AT commands for communication over USART with DMA support|
+|x01 ESP32 module for scanning WiFi and calling the Geolocation API|The ESP32 is programmed using PlatformIO and the ESP32SPISlave.h and WiFi.h libraries. SPI protocol is used for communication with STM32|
+
+
+
+
 <p align="justify">
 
 ### Prerequisites
-Before getting started with the project, you will need the following:
-| Hardware | Software |
-|----------|----------|
-|x01 STM32F103C8 or a similar microcontroller.|Proficient in C/C++ programming for embedded systems, familiar with ARM Cortex-M3, experienced with FreeRTOS (tasks, semaphores, timers)|
-|x03 ultrasonic sensors (e.g., HC-SR04, SRF05) and x01  audio playback module (e.g., DFPlayer Mini with microSD card)  |Understanding of PWM and input capture for interfacing with ultrasonic sensors, and familiar with USART communication.|
-|x01 GPS modules (e.g., NEO-M8N, Quectel L80); x01 4G modules with LBS support like A7680C and A7682S. |Skilled in USART communication, optionally uses DMA to improve performance and reduce CPU load, and experienced with AT commands|
-|x01 module capable of Wi-Fi scanning and HTTP/HTML communication (e.g., ESP32, ESP8266 |Proficient in I2C/SPI communication; experienced with ESP32SPISlave.h, WiFi.h and able to make Geolocation API calls over HTTP/HTML|
+
 
 
 ### Installation
