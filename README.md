@@ -81,7 +81,10 @@ The detailed diagram of the hardware used for the project is shown here.<br>
 |x01 ESP32 module for scanning WiFi and calling the Geolocation API|The ESP32 is programmed using PlatformIO and the ESP32SPISlave.h and WiFi.h libraries. SPI protocol is used for communication with STM32|
 
 
-
+<div align="center">
+  <a href="https://github.com/bitbydat/Obstacle-Detection-Device">
+    <img src="image/flowchart1.png" alt="Logo" width="900" height="500">
+  </a>
 
 <p align="justify">
 
