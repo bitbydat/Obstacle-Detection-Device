@@ -13,9 +13,9 @@
     <a href="https://docs.google.com/document/d/1b8eUY19hVWinYOA9YIkjcR_toliwRPs9/edit?usp=sharing&ouid=113352961761938394358&rtpof=true&sd=true"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/hungdaqq/Smarthome-IoT/issues">Report Bug</a>
+    <a href="https://github.com/bitbydat/Obstacle-Detection-Device/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hungdaqq/Smarthome-IoT/issues">Request Feature</a>
+    <a href="https://github.com/bitbydat/Obstacle-Detection-Device/issues">Request Feature</a>
   </p>
 </div>
 
