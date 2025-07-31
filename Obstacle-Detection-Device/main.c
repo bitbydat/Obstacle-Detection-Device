@@ -122,10 +122,10 @@ int main()
 	
 	if(xMutex != NULL)
 	{
-		xTaskCreate(vTaskUltrasonicMeasure, "UltrasonicMeasure",  configMINIMAL_STACK_SIZE, NULL, 								tskIDLE_PRIORITY,	 	 NULL);
-		xTaskCreate(vTaskAlert, 						"Alert", 							configMINIMAL_STACK_SIZE, NULL, 								tskIDLE_PRIORITY+1,	 &pxAlert);
-		xTaskCreate(vTaskLocationHandler, 	"LocationHandler", 		configMINIMAL_STACK_SIZE, (void*)location_msg, 	tskIDLE_PRIORITY,	 	 &pxLocationHandler);
-		xTaskCreate(vTaskSendSMS, 					"SendSMS", 						configMINIMAL_STACK_SIZE, NULL, 								tskIDLE_PRIORITY+2,  &pxSendSMS);
+		xTaskCreate(vTaskUltrasonicMeasure, 	"UltrasonicMeasure",  configMINIMAL_STACK_SIZE, NULL, 			tskIDLE_PRIORITY,    NULL);
+		xTaskCreate(vTaskAlert, 		"Alert", 	      configMINIMAL_STACK_SIZE, NULL, 			tskIDLE_PRIORITY+1,  &pxAlert);
+		xTaskCreate(vTaskLocationHandler, 	"LocationHandler",    configMINIMAL_STACK_SIZE, (void*)location_msg, 	tskIDLE_PRIORITY,    &pxLocationHandler);
+		xTaskCreate(vTaskSendSMS, 	 	"SendSMS", 	      configMINIMAL_STACK_SIZE, NULL, 			tskIDLE_PRIORITY+2,  &pxSendSMS);
 	}
 	__enable_irq();
 		
@@ -153,11 +153,8 @@ void EXTI15_10_IRQHandler(void)
 	{
 		EXTI->PR |= EXTI_PR_PR12;
 		ultrasonic_stop_flag ^= 1;
-		Buzzer_Off;
-		
+		Buzzer_Off;		
 	}
-	
-
 }
 
 
