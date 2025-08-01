@@ -83,7 +83,7 @@ The detailed diagram of the hardware used for the project is shown here.<br>
 
 <div align="center">
   <a href="https://github.com/bitbydat/Obstacle-Detection-Device">
-    <img src="image/flowchart1.png" alt="Logo" width="900" height="500">
+    <img src="image/flowchart2.png" alt="Logo" width="900" height="500">
   </a>
 
 <p align="justify">
