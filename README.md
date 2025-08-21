@@ -85,8 +85,18 @@ The detailed diagram of the hardware used for the project is shown here.<br>
   <a href="https://github.com/bitbydat/Obstacle-Detection-Device">
     <img src="image/flowchart2.png" alt="Logo" width="900" height="500">
   </a>
+</p>
+</div>
 
-<p align="justify">
+<div align="left">
+
+The system runs on FreeRTOS for task scheduling and consists of four main tasks:  
+- Task 1 measures distance using HC-SR04 ultrasonic sensors and applies a Kalman filter to reduce noise.  
+- Task 2 is triggered by a notification from Task 1 when an obstacle is detected. It processes the distance data and determines the alert mechanism via a buzzer or an MP3 module.  
+- Task 3 handles positioning data by checking the validity of GPS coordinates. If not, it requests location data from LBS via the A7680C module or the ESP32.  
+- Task 4  sends a text message containing the user’s location via the A7680C when it is notified by the push-button interrupt.
+
+</div>
 
 ### Prerequisites
 
