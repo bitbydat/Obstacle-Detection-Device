@@ -8,7 +8,7 @@
 <h3 align="center">Navigation and Obstacle Detection Device for the Visually Impaired</h3>
 
   <p align="center">
-    My graduation project in Control and Automation Engineering (semester 2025.1)
+    My graduation project in Control and Automation Engineering (semester 2024.2)
     <br />
     <a href="https://docs.google.com/document/d/1b8eUY19hVWinYOA9YIkjcR_toliwRPs9/edit?usp=sharing&ouid=113352961761938394358&rtpof=true&sd=true"><strong>Explore the docs »</strong></a>
     <br />
